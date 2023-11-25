@@ -1,0 +1,31 @@
+{
+  "name": "@lunaticenslaved/configs",
+  "version": "0.0.0",
+  "author": "lunaticenslaved",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    "./prettier": "./prettier.js",
+    "./eslint.base": "./eslint.base.js",
+    "./eslint.server": "./eslint.server.js",
+    "./eslint.client": "./eslint.client.js",
+    "./tsconfig.base": "./tsconfig.base.json"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-unused-imports": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0"
+  },
+  "peerDependencies": {
+    "prettier": "^3.1.0",
+    "eslint": "^8.54.0"
+  }
+}
